@@ -15,9 +15,13 @@ class me:
 
 
 
+
+
 saurabh= me("saurabh",22,15000)
 rohan= me("saurabh",22,15000)
 # print(f"{saurabh.name} {saurabh.age} {saurabh.salary}")
 
 saurabh.noh(18)
 print(rohan.no_holiday)
+meenal=me("saurabh",22,15000)
+print(meenal.no_holiday)
