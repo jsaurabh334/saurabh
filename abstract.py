@@ -13,10 +13,10 @@ class rectangle(shape):
     type="rectangle"
     sides=4
     def __init__(self):
-        self.length=6
-        self.breadth=7
+        self.length=60
+        self.breadth=5
     def printarea(self):
-        return self.length* self.breadth
+        return self.length* self.breadth # method overriding
 
 
 rect1= rectangle()

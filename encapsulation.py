@@ -10,5 +10,5 @@ class car:
 
 sj= car()
 sj.driving()
-# sj.__updatesoftware() we cannt access private functions directly
+# sj.__updatesoftware()  #we cannt access private functions directly
        

@@ -23,6 +23,11 @@ print(f"{mohan.name} {mohan.age} {mohan.salary}")
 class me2(me):
     def __init__(self, name, age, salary):
         super().__init__(name, age, salary)
+        
+
+class me3(me2):
+    def __init__(self, name, age, salary):
+        super().__init__(name, age, salary)
 
 
 sj=me2("saurabh",22,15000)
